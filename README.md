@@ -2,6 +2,9 @@
 
 This Android application implements a Clean MVVM Architecture using Kotlin and Room to calculate and manage loan EMIs.
 
+**Drive Link for apk:**
+https://drive.google.com/file/d/1IFga5jpMlRzXCeymLlL_XRIwzoKHGy_Q/view?usp=sharing
+
 **Features:**
 
 * Calculate EMI based on loan amount, interest rate, and loan term.
