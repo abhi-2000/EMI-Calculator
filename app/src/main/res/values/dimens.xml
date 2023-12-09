@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <dimen name="topMargin">20dp</dimen>
+    <dimen name="textSize" tools:ignore="SmallSp">10sp</dimen>
+    <dimen name="appBarTextSize" tools:ignore="SmallSp">18sp</dimen>
+    <dimen name="sixteenTextSize" tools:ignore="SmallSp">16sp</dimen>
+    <dimen name="twentyTextSize" tools:ignore="SmallSp">20sp</dimen>
+
+
+</resources>

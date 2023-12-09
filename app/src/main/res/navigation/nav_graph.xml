@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/landingFragment">
+
+    <fragment
+        tools:layout="@layout/fragment_landing"
+        android:id="@+id/landingFragment"
+        android:name="com.example.emicalculator.presenter.ui.landing.LandingFragment"
+        android:label="LandingFragment" >
+        <action
+            android:id="@+id/action_landingFragment_to_calculateEmiFragment"
+            app:destination="@id/calculateEmiFragment" />
+        <action
+            android:id="@+id/action_landingFragment_to_upcomingEmiFragment"
+            app:destination="@id/upcomingEmiFragment" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_calculate_emi"
+        android:id="@+id/calculateEmiFragment"
+        android:name="com.example.emicalculator.presenter.ui.calculate.CalculateEmiFragment"
+        android:label="CalculateEmiFragment" >
+        <action
+            android:id="@+id/action_calculateEmiFragment_to_upcomingEmiFragment"
+            app:destination="@id/upcomingEmiFragment" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_upcoming_emi"
+        android:id="@+id/upcomingEmiFragment"
+        android:name="com.example.emicalculator.presenter.ui.upcoming.UpcomingEmiFragment"
+        android:label="UpcomingEmiFragment" >
+        <action
+            android:id="@+id/action_upcomingEmiFragment_to_landingFragment"
+            app:destination="@id/landingFragment"
+            app:popUpTo="@id/landingFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

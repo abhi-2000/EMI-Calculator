@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">EMI Calculator</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_a_new_loan">Add a new loan</string>
+    <string name="check_your_emi_amount">Check your EMI amount</string>
+    <string name="loan_amount">Loan Amount</string>
+    <string name="_5000">₹ 5000</string>
+    <string name="_5_000">5,000</string>
+    <string name="_100_000">100,000</string>
+    <string name="tenure">Tenure</string>
+    <string name="_3_months">3 months</string>
+    <string name="_3">3</string>
+    <string name="_12">12</string>
+    <string name="interest_rate">Interest Rate</string>
+    <string name="_2">2%</string>
+    <string name="two">2</string>
+    <string name="_15">15</string>
+    <string name="emi_month">EMI/Month</string>
+    <string name="_1672_23">₹ 1672.23</string>
+    <string name="proceed">Proceed</string>
+    <string name="existing_loans">Existing Loans</string>
+    <string name="no_loans_added">No loans added</string>
+    <string name="upcoming_emis">UPCOMING EMIS</string>
+    <string name="loaned_amount">Loaned Amount</string>
+    <string name="_1500">1500</string>
+    <string name="rate_of_interest">Rate of Interest</string>
+    <string name="are_you_sure_you_have_paid_the_emi">Are you sure, you have paid the EMI ?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+</resources>
